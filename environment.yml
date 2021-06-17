@@ -1,0 +1,8 @@
+name: my-custom-jupyter-kernel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6   # or 2.7
+  - vowpalwabbit=8.8.1
+  - pip:
+    - pandas==1.1.5
